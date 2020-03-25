@@ -2,11 +2,12 @@
   "compilerOptions": {
     "sourceMap": true,
     "module": "es2015",
-    "target": "es2017",
+    "target": "es5",
     "moduleResolution": "node",
     "outDir": "./dist",
     "jsx": "react",
     "skipLibCheck": true,
+    "downlevelIteration": true,
     "declaration": true,
     "noEmit": true,
     "allowSyntheticDefaultImports": true,
